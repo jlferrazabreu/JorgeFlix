@@ -1,9 +1,7 @@
-version: '3.9'
-
 services:
   app:
     build: .
     container_name: 'jorgeflix-typescript-app'
     volumes:
-       - . :/home/node/app
+       - .:/home/node/app
 
